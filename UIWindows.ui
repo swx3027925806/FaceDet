@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1825</width>
+    <height>960</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTextEdit" name="base_info">
+    <property name="geometry">
+     <rect>
+      <x>1570</x>
+      <y>119</y>
+      <width>251</width>
+      <height>771</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="dislpay_image">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>120</y>
+      <width>1280</width>
+      <height>720</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::PlainText</enum>
+    </property>
+    <property name="pixmap">
+     <pixmap>resource/block.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QListView" name="path_list">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>119</y>
+      <width>220</width>
+      <height>781</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="network_list">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>30</y>
+      <width>281</width>
+      <height>30</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="model_list">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>30</y>
+      <width>221</width>
+      <height>30</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="model_buttom">
+    <property name="geometry">
+     <rect>
+      <x>970</x>
+      <y>30</y>
+      <width>120</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>确认模型</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="retangle_check">
+    <property name="geometry">
+     <rect>
+      <x>1570</x>
+      <y>30</y>
+      <width>150</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>矩形框显示</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="path_text">
+    <property name="geometry">
+     <rect>
+      <x>1110</x>
+      <y>30</y>
+      <width>250</width>
+      <height>30</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="path_buttom">
+    <property name="geometry">
+     <rect>
+      <x>1380</x>
+      <y>30</y>
+      <width>111</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>选择文件夹</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="network_buttom">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>30</y>
+      <width>120</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>选择网络</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1825</width>
+     <height>30</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
